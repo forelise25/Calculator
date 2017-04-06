@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="youn0045.kr.hs.emirim.calculator.MainActivity"
-android:orientation="vertical"
+    android:orientation="vertical"
     >
     <EditText
         android:id="@+id/edit1"
@@ -22,12 +22,9 @@ android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="5"
-        android:rowCount="2"
-        >
-
-
+        android:rowCount="2">
         <Button
-            android:id="@+id/btm0"
+            android:id="@+id/btn0"
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="0"
@@ -43,6 +40,7 @@ android:orientation="vertical"
             android:layout_column="1"
             />
         <Button
+            android:id="@+id/btn2"
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="2"
@@ -50,6 +48,7 @@ android:orientation="vertical"
             android:layout_column="2"
             />
         <Button
+            android:id="@+id/btn3"
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="3"
@@ -57,6 +56,7 @@ android:orientation="vertical"
             android:layout_column="3"
             />
         <Button
+            android:id="@+id/btn4"
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="4"
@@ -64,6 +64,7 @@ android:orientation="vertical"
             android:layout_column="4"
             />
         <Button
+            android:id="@+id/btn5"
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="5"
@@ -71,6 +72,7 @@ android:orientation="vertical"
             android:layout_column="0"
             />
         <Button
+            android:id="@+id/btn6"
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="6"
@@ -78,6 +80,7 @@ android:orientation="vertical"
             android:layout_column="1"
             />
         <Button
+            android:id="@+id/btn7"
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="7"
@@ -85,6 +88,7 @@ android:orientation="vertical"
             android:layout_column="2"
             />
         <Button
+            android:id="@+id/btn8"
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="8"
@@ -92,6 +96,7 @@ android:orientation="vertical"
             android:layout_column="3"
             />
         <Button
+            android:id="@+id/btn9"
             android:layout_width="77dp"
             android:layout_height="wrap_content"
             android:text="9"
@@ -122,5 +127,12 @@ android:orientation="vertical"
         android:layout_height="wrap_content"
         android:text="division"
         />
+    <TextView
+        android:id="@+id/textresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="20dp"
+        android:text="계산결과 : "/>
 </LinearLayout>
 

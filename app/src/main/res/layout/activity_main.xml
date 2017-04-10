@@ -133,6 +133,6 @@
         android:layout_height="wrap_content"
         android:textColor="#ff0000"
         android:textSize="20dp"
-        android:text="계산결과 : "/>
+        />
 </LinearLayout>
 
